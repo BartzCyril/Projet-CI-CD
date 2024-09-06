@@ -2,12 +2,12 @@ const express = require('express');
 
 require('dotenv').config();
 
-const aPp = express();
+const app = express();
 
-aPp.get('/', (req, res) => {
-    res.send(`Bonjour`);
+app.get('/', (req, res) => {
+    res.send(`Bonjour les gens`);
 });
 
-aPp.listen(3000, () => {
+app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
