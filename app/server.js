@@ -5,7 +5,7 @@ require('dotenv').config();
 const aPp = express();
 
 aPp.get('/', (req, res) => {
-    res.send(`Hello world`);
+    res.send(`Bonjour`);
 });
 
 aPp.listen(3000, () => {
